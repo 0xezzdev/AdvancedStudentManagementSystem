@@ -390,10 +390,11 @@ int main()
                             {
                                 cout << "Enter your password: ";
                                 getline(cin >> ws, loginpasswordCheck);
-                                cout<< loginpasswordCheck << endl;
+                                cout << endl;
                                 if (i->password == loginpasswordCheck)
                                 {
                                     check.logIn(*i);
+                                    isLogged = true;
                                     break;
                                 }
                                 else
