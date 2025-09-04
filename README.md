@@ -54,7 +54,13 @@ The **Advanced School Management System** is a C++ console application designed 
 ```
 AdvancedSchoolManagementSystem/
 ├── src/
+│   └── ASMS_run_For_Linux
+│   └── ASMS_run_For_Windows.exe
+│   └── Authentication.cpp
+│   └── SaveDataControl.cpp
+│   └── courseControl.cpp
 │   └── main.cpp
+│   └── studentControl.cpp
 ├── include/
 │   ├── User.h
 │   ├── Student.h
